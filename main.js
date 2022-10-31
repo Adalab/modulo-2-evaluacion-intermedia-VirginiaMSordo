@@ -13,6 +13,7 @@ function getRandomNumber(max) {
 
 const battle = () => {
     const random= getRandomNumber (5);
+    console.log (random);
 
 /*
     else {
@@ -43,10 +44,10 @@ function paintResult () {
  if (select.value < random){
     result.innerHTML='Ha ganado el Ejército del Mal! Vuelve a Intentarlo';
 
-} if else (select.value > random){
+} if (select.value > random){
     result.innerHTML= 'Ha ganado el Ejército del Bien! Enhorabuena.'
 
-} else (select.value=== random) {
+} else (select.value=== random) 
     result.innerHTML = 'Empate'
 }
 }
@@ -61,7 +62,5 @@ function handleClick(event) {
   paintResult();
 
 }
-
-
 
 btn.addEventListener('click', handleClick);
