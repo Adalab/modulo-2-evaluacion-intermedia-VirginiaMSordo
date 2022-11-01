@@ -10,10 +10,18 @@
     justify-content: center;
    
 }
-.resultado {
+.result {
     display: flex;
     justify-content: center;
     white-space: nowrap;
     width: 325px;
     background-color: brown;
+}
+
+.hidden {
+    display: none;
+}
+
+.winner{
+    background-color: green;
 }

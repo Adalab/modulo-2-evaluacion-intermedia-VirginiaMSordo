@@ -22,18 +22,32 @@
         <form>
            
             <select class="js-select">
-                <option value=""> Selecciona la raza con la que vas a jugar</option>
-                <option value="1"> Raza 1: Pelosos con fuerza (1)</option>
-                <option value="2"> Raza 2: Sureños buenos con fuerza (2)</option>
-                <option value="3"> Raza 3: Enanos con fuerza (3)</option>
-                <option value="4"> Raza 4: Númenóreanos con fuerza (4)</option>
-                <option value="5"> Raza 5: Elfos con fuerza (5)</option>
+                <option value="select"> Selecciona la raza con la que vas a jugar</option>
+                <option value="1"> Pelosos</option>
+                <option value="2"> Sureños buenos</option>
+                <option value="3"> Enanos</option>
+                <option value="4"> Númenóreanos</option>
+                <option value="5"> Elfos</option>
             </select>
             
             <button class="js-btn">Batalla</button>
+            <button class=" js-reset-btn hidden">
+                Reiniciar Juego
+            </button>
         </form>
         <p class="result js-result" >Comienza la batalla</p>
+        <p>Puntuaciones</p>
+        <section>
+            <p class="js-counter-user">Jugadora: 0</p>
+            <p class="js-counter-pc">Computadora: 0</p>
+            <p class="js-counter-tie">Empates: 0</p>
+        </section>
+        
+        <!--Reload the game -->
+        </section>
+    
     </main>
+
     <script src="./main.js"></script>
 </body>
 
